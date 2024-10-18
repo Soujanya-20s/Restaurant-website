@@ -1,0 +1,147 @@
+.navbar a:hover{
+    color: orange;
+}
+.icons div:hover{
+    cursor: pointer;
+}
+.contact:hover{
+    transform: scale(1.1);
+    background: orange;
+    border:1px solid white;
+}
+.hometext h1{
+    animation: second 3s 1;
+
+}
+.animated{
+   
+    position: static;
+    animation:slide 2s  infinite;
+}
+.menu .menubox .menucard .menuimage:hover img{
+transform: scale(1.1);
+}
+
+.menu .menubox .menucard:hover .smallcard{
+    position: relative;
+    top: -240px;
+    right: 20px;
+    opacity: 1;
+}
+.menu .menubox .menucard .smallcard i:hover{
+    color: red;
+}
+.menu .menubox .menucard .menuinfo .menubtn:hover{
+    background-color: orangered;
+}
+.abouttext{
+    animation: about 4s 1;
+
+}
+.animated1{
+   
+    position: static;
+    animation:aboutimg 4s 1;
+}
+
+.team h1 span:after{
+content:'';
+width:100%;
+height:2px;
+background-color: #fac031;
+display:block;
+position: relative;
+bottom: 15px;
+
+}
+
+.team .teambox .profile:hover{
+    border-radius: 20px;
+    height: 320px;
+}
+
+.team .teambox .profile:hover img{
+    border-radius: 20px;
+    margin-top: -230px;
+    
+}
+
+.team .teambox .profile:hover .info{
+    top:60%;
+}
+.team .teambox .profile .info  .teamicon i:hover{
+    color: orangered;
+}
+.list li:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slide{
+    0%{transform: translatex(0);
+       }
+       50%{
+        transform: translateX(30px);
+       }100%{transform: translateX(0px) ;}
+    
+}
+@keyframes second{
+    0%{
+        transform: translateX(100%);
+    }
+   
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes aboutimg{
+    0%{
+        transform: translateX(-50%);
+    }
+   
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes about{
+    0%{
+        transform: translateX(100%);
+    }
+   
+    100%{
+        transform: translateX(0%);
+    }
+}
+/* @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  } */
